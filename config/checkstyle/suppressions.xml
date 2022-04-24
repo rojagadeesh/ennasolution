@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE suppressions PUBLIC "-//Puppy Crawl//DTD Suppressions 1.1//EN"
+"http://www.puppycrawl.com/dtds/suppressions_1_1.dtd">
+<suppressions>
+    <suppress checks="[a-zA-Z0-9]*" files="[\\/]jaxb[\\/]" />
+
+    <suppress checks="HideUtilityClassConstructor" files=".*Application\.java" />
+    <suppress checks="FinalClass" files=".*Application\.java" />
+
+    <suppress checks="AvoidStaticImport" files=".*(Fixture|Mock|Mother|Test)\.java" />
+    <suppress checks="ClassDataAbstractionCoupling" files=".*(Fixture|Mock|Mother|Test)\.java" />
+    <suppress checks="DeclarationOrder" files=".*(Fixture|Mock|Mother|Test)\.java" />
+    <suppress checks="FinalParameters" files=".*(Fixture|Mock|Mother|Test)\.java" />
+    <suppress checks="HideUtilityClassConstructor" files=".*(Fixture|Mock|Mother|Test)\.java" />
+    <suppress checks="MagicNumberCheck" files=".*(Fixture|Mock|Mother|Test)\.java" />
+    <suppress checks="MethodName" files=".*Test\.java" />
+    <suppress checks="MultipleStringLiterals" files=".*(Fixture|Mock|Mother|Test)\.java" />
+    <suppress checks="TypeName" files=".*Test\.java" />
+    <suppress checks="VisibilityModifier" files=".*(Fixture|Mock|Mother|Test)\.java" />
+</suppressions>

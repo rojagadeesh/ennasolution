@@ -18,6 +18,6 @@ public class CheckHttpResponse {
     @Test
     public void testShouldPassIfStringMatches() {
         Assertions.assertEquals("Hello",
-                testRestTemplate.getForObject("http://localhost:" + port + "/", String.class));
+                this.testRestTemplate.getForObject("http://localhost:" + this.port + "/initialcheck", String.class));
     }
 }

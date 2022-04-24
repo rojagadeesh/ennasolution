@@ -1,0 +1,25 @@
+products:
+    - id: 1
+      code: "KNCML"
+      name: "CREMALAX 10MG TAB"
+      batch: "ADF0278"
+      stock: 1
+      deal: 0
+      free: 0
+      mrp: 126.09
+      rate: 90.06
+      exp: "2022-04-01"
+      company: "ABBOTT (GASTROCARE)"
+      supplier: "ABBOTT INDIA LIMITED   HYDERABAD"
+    - id: 2
+      code: "SLDUP"
+      name: "DUPHASTON 10MG TAB"
+      batch: "KAVA0018"
+      stock: 10
+      deal: 0
+      free: 0
+      mrp: 672.51
+      rate: 480.36
+      exp: "2022-12-01"
+      company: "ABBOTT (WH&GI)"
+      supplier: "ABBOTT INDIA LIMITED   HYDERABAD"
